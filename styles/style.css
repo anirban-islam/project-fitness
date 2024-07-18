@@ -195,7 +195,7 @@ span{
     border-radius: 50%;
     margin-bottom: 20px;
 }
-
+/* Run section style */
 .run-extra{
     display: flex;
     background-color: rgb(34, 34, 34);
@@ -217,8 +217,8 @@ span{
     width: 100%;
     border-radius: 20px;  
     height: 300px;clear
-
 }
+
 .run-description h1{
     font-size: 50px;
     font-weight: 800;
@@ -284,11 +284,99 @@ span{
     left: 70%;
     top: 93%;
 }
+
 .des{
-    width: 50%;
+    width: 40%;
     margin: 78px auto;
     text-align: center;
 }
 .des h1{
     margin-bottom: 20px;
+
+
+}
+/* Bmi-style-@anirban3365 */
+
+
+.bmi-cal{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+.bmi-dis{
+    width: 50%;
+    margin: 5rem auto;
+}
+.bmi-dis h1{
+    margin-bottom: 1.3rem;
+
+}
+.cal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0rem;
+}
+.cal-chart {
+    width: 35%;
+}
+
+table{
+    width:100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.theader{
+    font-size: 1.3rem;
+    color: white;
+}
+td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  height: 50px;
+  font-size: 1rem;
+  padding-left: 2rem;
+  font-weight: 400;
+}
+
+.cal-input{
+    width:55%;
+}
+.binput{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10% 3%;
+    grid-row: auto;
+   
+}
+input ,select{
+    height: 2.5rem;
+    border-radius: 8px;
+    width:100%;
+    border: none;
+    font-size:1rem;
+    background: rgba(255, 255, 255, 0.1);
+  
+}
+select {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 200;
+}
+.full-box{
+    width: 206%;
+}
+
+.input-des h2{
+    margin-bottom: 2rem;
+}
+.input-des p{
+    margin-bottom: 2rem;
+}
+.calculate{
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+#cal-btn{
+    width: 15rem;
 }
