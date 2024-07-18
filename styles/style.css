@@ -381,6 +381,46 @@ select {
     width: 15rem;
 }
 
+
+/* My section-style-@anirban3365 */
+.review-des{
+    width: 40%;
+    text-align: center;
+    margin:5rem auto;
+}
+.riview{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+
+}
+.review-cart{
+    width:80%;
+    background-color:rgba(255, 255, 255, 0.1);;
+    border: 2px solid blueviolet;
+    border-radius: 18px;
+    height: 100%;
+    transition: all .5s;
+}
+.review-cart p{
+    color:  rgb(0, 0, 0);
+    margin-top: 2rem;
+    text-align: center;
+}
+.review-cart img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.review-cart h3{
+    text-align: center;
+}
+.review-cart:hover{
+    background-color: rgb(181, 240, 240);
+    height: 110%;
+    transform: scale(1.1);
+}
+
 /* footer Section style */
 .footer{
     margin-top: 7rem;
