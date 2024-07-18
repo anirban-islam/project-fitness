@@ -380,3 +380,34 @@ select {
 #cal-btn{
     width: 15rem;
 }
+
+/* footer Section style */
+.footer{
+    margin-top: 7rem;
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5rem;
+    background-color: black;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+.foot-box{
+    width: 25rem;
+
+}
+.foot-box h3,h1{
+    margin: 2rem 0;
+}
+.foot-box  p{
+    padding: .5rem 0;
+}
+.copy-right{
+    padding: 2rem;
+    text-align: center;
+    
+}
+.copy-right h3{
+    color: rgba(255, 255, 255, 0.5);
+}
