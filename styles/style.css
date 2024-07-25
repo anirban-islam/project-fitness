@@ -505,6 +505,10 @@ select {
         position: absolute;
         
     }
+    .red-carcle{
+        width: 25px;
+        height: 25px;
+    }
     .tutorial-text h1 , .tutorial-text2 h1{
         font-size: 1rem;
     }
