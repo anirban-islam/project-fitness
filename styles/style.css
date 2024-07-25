@@ -23,6 +23,7 @@
     background: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    overflow-x: hidden;
   }
 section{
     width: 80%;
@@ -83,7 +84,7 @@ span{
 .nav-list ul li{
     list-style: none;
     display: flex;
-    gap: 40px; 
+    gap: 30px; 
 }
 .nav-list a{
     padding: 8px 20px ;
