@@ -100,6 +100,7 @@ span{
     display: flex;
     justify-content: space-between;
     margin-top: -2%;
+    
 }
 
 .description{
@@ -216,7 +217,7 @@ span{
 .run-picture img{
     width: 100%;
     border-radius: 20px;  
-    height: 300px;clear
+    height: 300px;
 }
 
 .run-description h1{
@@ -450,4 +451,166 @@ select {
 }
 .copy-right h3{
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*  Small Divice  max width-576 */
+@media screen and (max-width:576px) {
+    .nav-list{
+        display: none;
+    }
+    .brand{
+        font-size: 20;
+    }
+    .description h1{
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 18px;
+    }
+    .baner{
+        flex-direction: column;
+        position: relative;
+    }
+    .description{
+        width: 60%;
+        margin-top:%;
+        margin-bottom: 5%;
+    }
+    .tutorial{
+        left: 0%;
+        top: 63%;
+        padding: 18px;
+    }
+    .free-video{
+        left: 55%;
+        top: 35%;
+    }
+    .foot-box h3, h1 {
+        margin: 0rem 0;
+    }
+    .btn{
+        width: 170%;
+    }
+    .btn-primary{
+        padding: 10px 35px;
+    }
+    .change-description{
+        width: 80%;
+    }
+    .change-cart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2%;
+        margin: 50px 0px;
+    }
+    .cart-box1, .cart-box2, .cart-box3, .cart-box4 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 5px auto;
+    }
+    .footer{
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 1rem;
+        gap:1rem;
+    }
+    .foot-box h3,h1{
+        margin: 0rem 0;
+    }
+    .foot-box{
+        width: 100%;
+    
+    }
+    .run-extra{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .run-picture{
+        width: 100%;
+        height: 
+    
+    }
+    .run-description{
+        width: 100%;
+    }
+    .run-description h1{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    .run-description P{
+        margin-bottom: 10px;
+    }
+    #join{
+        padding: 10px 70px;
+        margin-top: 5%;
+    }
+    .bmi-dis{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .cal{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .cal-chart ,.cal-input{
+        width: 100%;
+    }
+    .des{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .meet-team{
+        grid-template-columns: repeat(1,1fr);
+        gap: 3% 2%;
+        position: relative;
+    }
+    .t1-name {
+        position: absolute;
+        left: 10%;
+        top: 13%;
+    }
+    .t2-name {
+        position: absolute;
+        left: 10%;
+        top: 33%;
+    }
+    .t3-name {
+        position: absolute;
+        left: 10%;
+        top: 52%;
+    }
+    .t4-name {
+        position: absolute;
+        left: 10%;
+        top: 72%;
+    }
+    .t5-name {
+        position: absolute;
+        left: 10%;
+        top: 91%;
+    }
+    .t6-name {
+        position: absolute;
+        left: 10%;
+        top: 111%;
+    }
+    .review-des{
+        width: 90%;
+        margin-top: 20rem;
+    }
+    .riview{
+        grid-template-columns: repeat(1,1fr);
+        gap: 5rem;
+    }
+    .review-cart{
+        width: 100%;
+    }
+       
+        
+        
+
 }
