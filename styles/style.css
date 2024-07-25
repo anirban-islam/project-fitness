@@ -520,7 +520,7 @@ select {
         
     }
     .btn-primary{
-        padding: 15px 35px;
+        padding: 15px 40px;
         font-size: .6rem;
     }
     .change-description{
@@ -586,7 +586,7 @@ select {
         margin-bottom: 1rem;
     }
     #join{
-        padding: 10px 70px;
+        padding: 15px 70px;
         margin-top: 5%;
     }
     .bmi-dis{
@@ -622,7 +622,7 @@ select {
     
     .meet-team{
         grid-template-columns: repeat(1,1fr);
-        gap: 3% 2%;
+        gap: 1% 2%;
         position: relative;
     }
     .t1-name {
@@ -633,41 +633,45 @@ select {
     .t2-name {
         position: absolute;
         left: 10%;
-        top: 33%;
+        top: 31%;
     }
     .t3-name {
         position: absolute;
         left: 10%;
-        top: 52%;
+        top: 48%;
     }
     .t4-name {
         position: absolute;
         left: 10%;
-        top: 72%;
+        top: 66%;
     }
     .t5-name {
         position: absolute;
         left: 10%;
-        top: 91%;
+        top: 84%;
     }
     .t6-name {
         position: absolute;
         left: 10%;
-        top: 111%;
+        top: 101%;
     }
     .review-des{
         width: 90%;
-        margin-top: 20rem;
+        margin-top: 8rem;
+    }
+    .review-des h1{
+        font-size: 1.5rem;
+    }
+    .review-des p{
+        font-size: .7rem;
     }
     .riview{
         grid-template-columns: repeat(1,1fr);
-        gap: 5rem;
+        gap: 3rem;
     }
     .review-cart{
-        width: 100%;
-    }
-       
-        
-        
+        width: 95%;
+        margin: 0 auto;
+    }   
 
 }
