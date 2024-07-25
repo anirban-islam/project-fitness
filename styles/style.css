@@ -94,6 +94,13 @@ span{
     color: white;
     font-weight: 700;
 }
+.menu{
+    display: none;
+}
+.menu i{
+    color: white;
+    font-size: 2rem;
+}
 
 /* Banner Style-@anirban3365 */
 .baner{
@@ -459,6 +466,10 @@ select {
     .nav-list{
         display: none;
     }
+    .menu{
+        display: flex;
+        padding-right: 1rem; 
+    }
     .brand{
         font-size: 20;
     }
@@ -470,38 +481,63 @@ select {
     .baner{
         flex-direction: column;
         position: relative;
+        margin-top: -10%;
     }
     .description{
         width: 60%;
-        margin-top:%;
+        margin-top:2%;
         margin-bottom: 5%;
     }
     .tutorial{
         left: 0%;
-        top: 63%;
-        padding: 18px;
+        top: 70%;
+        padding: 10px;
+        position: absolute;
     }
     .free-video{
         left: 55%;
-        top: 35%;
+        top: 45%;
+        padding: 15px;
+        position: absolute;
+        
+    }
+    .tutorial-text h1 , .tutorial-text2 h1{
+        font-size: 1rem;
+    }
+    .tutorial-text p ,.tutorial-text2 p{
+        font-size: .5rem;
     }
     .foot-box h3, h1 {
         margin: 0rem 0;
     }
     .btn{
-        width: 170%;
+        width: 150%;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-right: 3rem;
     }
     .btn-primary{
         padding: 10px 35px;
+        font-size: .6rem;
     }
     .change-description{
-        width: 80%;
+        width: 90%;
+    }
+    .change-description h1{
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .change-description p{
+        font-size: .7rem;
     }
     .change-cart{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 2%;
         margin: 50px 0px;
+    }
+    .cart-box1 p ,.cart-box2 p,.cart-box3 p,.cart-box4 p{
+        font-size: .7rem;
     }
     .cart-box1, .cart-box2, .cart-box3, .cart-box4 {
         width: 50%;
@@ -524,25 +560,27 @@ select {
         width: 100%;
     
     }
+    .copy-right h3{
+        font-size: .8rem;
+    }
     .run-extra{
         flex-direction: column;
         gap: 2rem;
     }
     .run-picture{
         width: 100%;
-        height: 
     
     }
     .run-description{
         width: 100%;
     }
     .run-description h1{
-        font-size: 30px;
-        font-weight: 800;
+        font-size: 1.5rem;
+        font-weight: 700;
         margin-bottom: 5px;
     }
     .run-description P{
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
     #join{
         padding: 10px 70px;
@@ -552,6 +590,12 @@ select {
         width: 90%;
         margin: 1rem auto;
     }
+    .bmi-dis h1{
+        font-size: 1.5rem;
+    }
+    .bmi-dis p{
+        font-size: .8rem;
+    }
     .cal{
         flex-direction: column;
         gap: 2rem;
@@ -559,10 +603,20 @@ select {
     .cal-chart ,.cal-input{
         width: 100%;
     }
+    .cal-chart h2{
+        font-size: 1.5rem;
+    }
     .des{
         width: 90%;
         margin: 1rem auto;
     }
+    .des h1{
+        font-size: 1.5rem;
+    }
+    .des p{
+        font-size: .8rem;
+    }
+    
     .meet-team{
         grid-template-columns: repeat(1,1fr);
         gap: 3% 2%;
